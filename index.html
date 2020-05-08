@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="page">
+        <code>git init</code>
+            <header class="header fixed-top d-flex justify-content-between">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo-container col d-flex align-items-center">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                            <span class="logo-text">Prechu</span>
+                        </div>
+                        <div class="menu-container col">
+                            <ul class="menu d-flex align-items-center justify-content-end">
+                                <li class="menu-item active">
+                                    <a href="#" class="text-decoration-none">home</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="text-decoration-none">products</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="text-decoration-none">services</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="text-decoration-none">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+                <main class="main-content">
+                    <section class="banner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="banner-content d-flex align-items-center justify-content-between">
+                                    <div class="iphone-container col"></div>
+                                    <div class="sign-up-container col">
+                                        <h1 class="page-title">Sign up now</h1>
+                                        <p class="banner-description">Dummy text of the printing & type setting.Dummy text of the printing & type setting.Dummy text of the printing & type setting</p>
+                                        <div class="sign-up-button d-flex align-items-center justify-content-between">
+                                            <img src="./img/check.png" alt="check">
+                                            <span>Sign up now</span>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </section>
+                    <section class="products">
+                        <div class="container">
+                            <div class="row">
+                                <div class="product-content d-flex justify-content-between text-center">
+                                    <div class="product-item col">
+                                        <div class="product-image">
+                                            <img src="img/one.png" alt="one">
+                                        </div>
+                                        <div class="product-name">
+                                            <span>Product 1</span>
+                                        </div>
+                                        <div class="product-description">
+                                            <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                                        </div>
+                                    </div>
+                                    <div class="product-item col">
+                                        <div class="product-image">
+                                            <img src="img/two.png" alt="two">
+                                        </div>
+                                        <div class="product-name">
+                                            <span>Product 2</span>
+                                        </div>
+                                        <div class="product-description">
+                                            <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                                        </div>
+                                    </div>
+                                    <div class="product-item col">
+                                        <div class="product-image">
+                                            <img src="img/three.png" alt="three">
+                                        </div>
+                                        <div class="product-name">
+                                            <span>Product 3</span>
+                                        </div>
+                                        <div class="product-description">
+                                            <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="cart">
+                        <div class="container">
+                            <div class="row">
+                                <div class="cart-content d-flex align-items-center justify-content-between">
+                                    <div class="shopping-cart col">
+                                        <h3>The Shopping cart</h3>
+                                        <div class="shopping-cart-image">
+                                            <img src="./img/cart.png" alt="shopping-cart">
+                                        </div>
+                                    </div>
+                                    <div class="cart-info col">
+                                        <h4>Some header here</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Sint magnam suscipit reprehenderit in enim odit incidunt voluptas! 
+                                            Doloremque totam sequi officiis nam quasi tempora cum, incidunt repudiandae, qui voluptate ipsam!
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Sint magnam suscipit reprehenderit in enim odit incidunt voluptas! 
+                                            Doloremque totam sequi officiis nam quasi tempora cum, incidunt repudiandae, qui voluptate ipsam!
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Sint magnam suscipit reprehenderit in enim odit incidunt voluptas! 
+                                            Doloremque totam sequi officiis nam quasi tempora cum, incidunt repudiandae, qui voluptate ipsam!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer class="footer">
+                    <div class="copyright text-center">
+                        <span>Copyright &copy; <span class="current-year"></span></span> Hillel</span>
+                    </div>
+                </footer>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    document.querySelector(".current-year").textContent = new Date().getFullYear();
+                })
+            </script>
+</body>
+</html>
